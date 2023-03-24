@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ececec;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffffa9;
+  border: px solid #ccc;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(135, 134, 134);
+}
+
+.list_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 600px;
+  min-height: 500px;
+}
+
+.browser_warning {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
