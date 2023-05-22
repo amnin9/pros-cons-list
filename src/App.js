@@ -6,5 +6,5 @@ function App() {
     <ProsConsList />
   );
 }
-
+console.log("testing")
 export default App;
